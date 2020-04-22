@@ -7,7 +7,6 @@ page 90301 "ASK Course List"
     Caption = 'Course List';
     Editable = false;
     CardPageId = "ASK Course Card";
-
     layout
     {
         area(Content)
@@ -27,26 +26,6 @@ page 90301 "ASK Course List"
                 {
                     ApplicationArea = All;
                 }
-            }
-        }
-        area(Factboxes)
-        {
-
-        }
-    }
-
-    actions
-    {
-        area(Processing)
-        {
-            action(ActionName)
-            {
-                ApplicationArea = All;
-
-                trigger OnAction();
-                begin
-
-                end;
             }
         }
     }

@@ -9,7 +9,6 @@ table 90300 "ASK Course"
         field(30; Description; Text[50]) { }
         field(40; Type; Option)
         {
-            DataClassification = ToBeClassified;
             OptionMembers = "Instructor Led","e-Learning","Remote Training";
         }
         field(50; Duration; Decimal) { }
@@ -19,7 +18,6 @@ table 90300 "ASK Course"
         field(90; "Passing Rate"; Integer) { }
         field(100; "Instructor Code"; Code[20])
         {
-            DataClassification = ToBeClassified;
             TableRelation = Resource where(Type = const(Person));
         }
         field(120; "Instructor Name"; Text[50])
