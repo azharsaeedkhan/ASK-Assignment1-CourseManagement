@@ -1,1 +1,1 @@
-# D365BC-AL-Assignment1
+# ASK-Assignment1-CourseManagement
